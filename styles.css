@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'Aalto Display';
+    src: url('fonts/Aalto-Display-Personal-use.otf')  format('truetype');
+}
+.logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.logo_text{
+    font-family: 'Aalto Display';
+    font-size: 64px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.logo_image{
+    max-width: 68px;
+}
+.logo{
+    padding: 20px;
+}
+.overlay{    
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+body{
+    font-family: SUSE, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.background{
+    background-image: url(images/ferns.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
