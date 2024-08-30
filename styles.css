@@ -119,6 +119,8 @@ input{
     appearance: none;
     border: 1px #b8b8b8 solid;
     border-radius: 4px;
+    display: block;
+    width: 100%;
 }
 
 input:focus{
@@ -138,6 +140,7 @@ input:invalid{
     font-weight: 700;
     line-height: 1.3;
     margin-bottom: 16px;
+    width: 500px;
 }
 label{
     font-size: 10px;
@@ -150,10 +153,12 @@ label{
     flex-direction: column;
     gap: 2px;
     margin-bottom: 14px;
+    width: 100%;
 }
 
 .input-row{
     display: flex;
     flex-direction: row;
     gap:20px;
+    width: 400px;
 }
